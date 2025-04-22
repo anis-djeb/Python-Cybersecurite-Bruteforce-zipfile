@@ -3,9 +3,10 @@
 
 ## Scénario
 Un attaquant a exploité une vulnérabilité sur le serveur affecté et a commencé à installer un virus ransomware. Heureusement, l'équipe de détection et de réponse aux incidents a pu empêcher le ransomware de s'installer complètement, il n'a donc réussi qu'à chiffrer un seul fichier zip.  
-De plus, lors de l'extraction du document depuis le fichier zip, l'utilisateur est invité à entrer un mot de passe.
 
+De plus, lors de l'extraction du document depuis le fichier zip, l'utilisateur est invité à entrer un mot de passe.
 En interne, le responsable de la sécurité des systèmes d'information (CISO) ne souhaite pas payer la rançon, car il n'y a aucune garantie que la clé de déchiffrement sera fournie ou que les attaquants ne frapperont pas à nouveau à l'avenir.  
+
 À la place, nous souhaitons que vous réalisiez une attaque par force brute pour retrouver la clé de déchiffrement. D'après la négligence de l'attaquant, nous ne nous attendons pas à ce que la clé soit compliquée, car ils ont utilisé des payloads copiés-collés et ont immédiatement essayé d'utiliser le ransomware au lieu de se déplacer latéralement dans le réseau.
 
 ## Implémentation
